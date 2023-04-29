@@ -1,0 +1,118 @@
+.contenedorItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(black, grey);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divisor {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: grey;
+  box-shadow: 0px 0px 10px 7px white;
+  margin-left: 5%;
+  border-radius: 15px;
+}
+
+.imgProduct {
+  width: 90%;
+  padding-top: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.imgProduct:hover {
+  transform: scale(1.07);
+}
+
+.card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: none;
+  color: white;
+  padding: 120px;
+  border: none;
+}
+
+.name {
+  font-size: 230%;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 180%;
+  margin-bottom: 40px;
+}
+
+.id {
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 130%;
+}
+
+.terminarCompra {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  background-color: blueviolet;
+  margin-top: 30px;
+  font-size: 150%;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.terminarCompra:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .contenedorItem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(black, grey);
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .divisor {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: grey;
+    box-shadow: 0px 0px 10px 7px white;
+    margin-left: 5%;
+    border-radius: 15px;
+  }
+
+  .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    color: white;
+    padding: 120px;
+    border: none;
+  }
+}

@@ -1,0 +1,25 @@
+.contenedorProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: linear-gradient(lightblue, white);
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .contenedorProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background: linear-gradient(lightblue, white);
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}

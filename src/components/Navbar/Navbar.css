@@ -1,0 +1,29 @@
+.logoNike {
+  width: 50%;
+}
+
+.bg-li {
+  padding: 0;
+}
+
+.bg-li:hover {
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.8s;
+}
+
+.nav {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  justify-content: center;
+  transition: all 0.5s;
+  font-size: 160%;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+
+.nav:hover {
+  color: rgb(255, 123, 0);
+}

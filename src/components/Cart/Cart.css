@@ -1,0 +1,134 @@
+.divCart {
+  margin-bottom: 100px;
+}
+
+.h2Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.linkProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  transition: all 0.5s;
+}
+
+.linkProductos:hover {
+  transform: scale(0.98);
+  background-color: rgb(163, 94, 228);
+  color: black;
+}
+
+.imgFlecha {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  flex-wrap: nowrap;
+  width: 40px;
+}
+
+.direction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.totalCompra {
+  text-align: center;
+}
+
+.juntos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.vaciarCarrito {
+  background-color: rgb(218, 60, 60);
+  color: white;
+  font-size: 140%;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+  color: black;
+}
+
+.vaciarCarrito:hover {
+  background-color: red;
+  color: white;
+}
+
+.finalizarCompra {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(57, 167, 57);
+  padding: 10px;
+  font-size: 140%;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.finalizarCompra:hover {
+  background-color: green;
+  color: white;
+}
+
+.continuarComprando {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(89, 171, 248);
+  font-size: 140%;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.continuarComprando:hover {
+  background-color: rgb(0, 162, 255);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .juntos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+.divHeader {
+  padding: 4px;
+  background-color: black;
+}
+
+.pHeader {
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  margin: 0;
+}

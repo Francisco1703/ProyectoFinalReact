@@ -1,0 +1,37 @@
+.cartItem {
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.cartItem:hover {
+  transform: scale(0.95);
+}
+
+.nombreCart {
+  font-size: 160%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cantidadCart {
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+.precioCart {
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+.idCart {
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+.imgCart {
+  width: 100%;
+}

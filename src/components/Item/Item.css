@@ -1,0 +1,56 @@
+.itemProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 500px;
+  background: linear-gradient(black, grey);
+  color: white;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.itemProducts:hover {
+  transform: scale(1.02);
+}
+
+.imgItem {
+  width: 350px;
+  cursor: pointer;
+}
+
+.nombreItem {
+  font-size: 250%;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-top: 20px;
+}
+
+.precioItem {
+  margin-top: 20px;
+  font-size: 180%;
+}
+
+.idItem {
+  margin-top: 10px;
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.verDetalles {
+  margin-bottom: 40px;
+  font-size: 160%;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+  transition: all 0.5s;
+}
+
+.verDetalles:hover {
+  transform: scale(0.95);
+  font-weight: bolder;
+}

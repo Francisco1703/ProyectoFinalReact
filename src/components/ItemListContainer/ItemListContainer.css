@@ -1,0 +1,25 @@
+.bgDiv {
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.titleListContainer {
+  padding: 40px;
+  font-size: 400%;
+  margin-bottom: 60px;
+  color: black;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(orange, rgb(226, 181, 98));
+}
+
+@media (max-width: 1200px) {
+  .titleListContainer {
+    padding: 40px;
+    font-size: 250%;
+    margin-bottom: 60px;
+    color: black;
+    font-family: "Cairo", sans-serif;
+    background: linear-gradient(orange, rgb(226, 181, 98));
+  }
+}
