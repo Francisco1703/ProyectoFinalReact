@@ -1,0 +1,136 @@
+.title {
+  text-align: center;
+  font-size: 400%;
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  background-color: rgb(207, 197, 197);
+}
+
+.formCheckout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.divEstructura {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.divProductos {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 330px;
+}
+
+.imgCheckout {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.divTitles {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.titlesCheck {
+  font-size: 200%;
+  font-weight: 500;
+}
+
+.emailConfirmacion {
+  margin-right: 160px;
+}
+
+.email {
+  margin-left: 50px;
+}
+
+.pValores {
+  font-size: 180%;
+}
+
+.inputCheck {
+  width: 350px;
+  padding-left: 10px;
+  height: 50px;
+  font-size: 170%;
+}
+
+.btnCheckout {
+  margin-top: 30px;
+  padding: 15px;
+  border: none;
+  font-size: 200%;
+  background-color: rgb(199, 197, 104);
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.btnCheckout:hover {
+  background-color: rgb(136, 135, 65);
+  color: white;
+}
+
+.spanTotal {
+  font-weight: bolder;
+  font-size: 130%;
+}
+
+.totalCheckout {
+  font-size: 250%;
+  margin-top: 50px;
+}
+
+.textoError {
+  color: red;
+  font-size: 180%;
+  font-weight: 500;
+}
+
+.strongOrden {
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.btnVolver {
+  padding: 10px;
+  font-size: 190%;
+  background-color: red;
+  color: white;
+  border: none;
+  transition: all 0.5s;
+}
+
+.btnVolver:hover {
+  background-color: black;
+  color: white;
+}
+
+.numeroOrden {
+  margin-left: 20px;
+  background-color: yellow;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}

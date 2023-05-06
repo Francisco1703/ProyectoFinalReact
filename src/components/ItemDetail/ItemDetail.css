@@ -46,30 +46,31 @@
 }
 
 .name {
-  font-size: 230%;
+  font-size: 300%;
   margin-bottom: 30px;
 }
 
 .price {
-  font-size: 180%;
+  font-size: 280%;
   margin-bottom: 40px;
 }
 
 .id {
   margin-bottom: 20px;
+  font-size: 200%;
 }
 
 .descripcion {
-  font-size: 130%;
+  font-size: 200%;
 }
 
 .terminarCompra {
-  padding: 10px;
+  padding: 20px;
   color: black;
   text-decoration: none;
   background-color: blueviolet;
   margin-top: 30px;
-  font-size: 150%;
+  font-size: 200%;
   font-weight: 500;
   border-radius: 10px;
   transition: all 0.5s;
@@ -77,6 +78,24 @@
 
 .terminarCompra:hover {
   background-color: red;
+  color: white;
+}
+
+.seguirComprando {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(89, 171, 248);
+  font-size: 200%;
+  padding: 20px;
+  width: 400px;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.seguirComprando:hover {
+  background-color: rgb(34, 129, 218);
   color: white;
 }
 

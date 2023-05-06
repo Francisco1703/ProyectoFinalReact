@@ -5,12 +5,8 @@ import { CarritoContext } from "../../context/CarritoContext";
 import CartItem from "../CartItem/CartItem";
 
 const Cart = () => {
-  const { carrito, vaciarCarrito, totalCantidad } = useContext(CarritoContext);
-
-  const total = carrito.reduce(
-    (total, producto) => total + producto.item.precio * producto.cantidad,
-    0
-  );
+  const { carrito, vaciarCarrito, totalCantidad, total } =
+    useContext(CarritoContext);
 
   if (totalCantidad === 0) {
     return (

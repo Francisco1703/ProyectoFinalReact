@@ -1,14 +1,19 @@
 .cartItem {
-  width: 300px;
+  width: 350px;
   border: 1px solid black;
   padding: 20px;
-  transition: all 0.5s;
   cursor: pointer;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
 }
 
 .cartItem:hover {
-  transform: scale(0.95);
+  background: linear-gradient(rgb(161, 156, 156), rgb(71, 66, 66));
+  color: white;
+  box-shadow: 0 0 30px 10px black;
+  border: none;
 }
 
 .nombreCart {
@@ -34,4 +39,19 @@
 
 .imgCart {
   width: 100%;
+}
+
+.btnEliminarProd {
+  font-size: 150%;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.btnEliminarProd:hover {
+  background-color: black;
+  color: white;
 }

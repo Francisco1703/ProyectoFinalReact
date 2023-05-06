@@ -58,10 +58,13 @@
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 150%;
 }
 
 .totalCompra {
   text-align: center;
+  font-size: 250%;
+  font-weight: 700;
 }
 
 .juntos {
@@ -76,7 +79,7 @@
 .vaciarCarrito {
   background-color: rgb(218, 60, 60);
   color: white;
-  font-size: 140%;
+  font-size: 180%;
   border: none;
   padding: 10px;
   font-weight: 600;
@@ -94,7 +97,7 @@
   color: black;
   background-color: rgb(57, 167, 57);
   padding: 10px;
-  font-size: 140%;
+  font-size: 180%;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -108,7 +111,7 @@
   text-decoration: none;
   color: black;
   background-color: rgb(89, 171, 248);
-  font-size: 140%;
+  font-size: 180%;
   padding: 10px;
   font-weight: 600;
   transition: all 0.5s;

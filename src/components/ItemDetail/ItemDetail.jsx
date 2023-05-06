@@ -29,11 +29,16 @@ const ItemDetail = ({ id, nombre, precio, img, stock, descripcion }) => {
         {agregarCantidad > 0 ? (
           <Link className="terminarCompra" to={"/cart"}>
             {" "}
-            Terminar Compra{" "}
+            Terminar Compra
           </Link>
         ) : (
           <ItemCount inicial={1} stock={stock} onAdd={handlerCantidad} />
         )}
+        {agregarCantidad > 0 ? (
+          <Link className="seguirComprando" to={"/"}>
+            Seguir Comprando
+          </Link>
+        ) : null}
       </div>
     </div>
   );

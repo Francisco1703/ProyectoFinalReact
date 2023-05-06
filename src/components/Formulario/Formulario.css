@@ -1,0 +1,79 @@
+.reactModal {
+  background-color: black;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 350px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCloseForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90%;
+  margin-top: 10px;
+  font-size: 150%;
+  padding: 8px;
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  width: 40px;
+  transition: all 0.5s;
+}
+
+.btnCloseForm:hover {
+  background-color: red;
+  color: white;
+}
+
+.formNike {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.loginForm {
+  margin-bottom: 30px;
+  font-size: 250%;
+  text-decoration: underline;
+  color: white;
+}
+
+.label {
+  font-size: 250%;
+  margin-right: 20px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.divForm {
+  margin-bottom: 30px;
+}
+
+.emailForm {
+  margin-left: 55px;
+}
+
+.btnForm {
+  padding: 20px;
+  font-size: 180%;
+  width: 90%;
+  font-weight: bolder;
+  transition: all 0.5s;
+}
+
+.btnForm:hover {
+  background-color: rgb(79, 173, 79);
+  color: white;
+}
