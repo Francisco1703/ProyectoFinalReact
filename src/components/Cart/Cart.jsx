@@ -10,7 +10,7 @@ const Cart = () => {
 
   if (totalCantidad === 0) {
     return (
-      <>
+      <div className="divSinProd">
         <h2 className="h2Cart"> NO HAY PRODUCTOS EN EL CARRITO </h2>
         <Link className="linkProductos" to="/">
           <img
@@ -20,7 +20,7 @@ const Cart = () => {
           />
           Productos
         </Link>
-      </>
+      </div>
     );
   }
 

@@ -1,5 +1,5 @@
 .logoNike {
-  width: 50%;
+  width: 100%;
 }
 
 .bg-li {
@@ -19,11 +19,17 @@
   display: inline-block;
   justify-content: center;
   transition: all 0.5s;
-  font-size: 160%;
+  font-size: 180%;
   letter-spacing: 2px;
   margin: 20px;
 }
 
 .nav:hover {
   color: rgb(255, 123, 0);
+}
+
+@media (max-width: 1800px) {
+  .logoNike {
+    width: 70%;
+  }
 }
